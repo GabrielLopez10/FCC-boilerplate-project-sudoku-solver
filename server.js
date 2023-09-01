@@ -1,8 +1,8 @@
-require('dotenv').config();
 const express     = require('express');
 const bodyParser  = require('body-parser');
 const expect      = require('chai').expect;
 const cors        = require('cors');
+require('dotenv').config();
 
 const fccTestingRoutes  = require('./routes/fcctesting.js');
 const apiRoutes         = require('./routes/api.js');
